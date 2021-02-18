@@ -1,0 +1,63 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,600&display=swap');
+
+
+/* .p {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 60px;
+  /* font-style: italic;
+  font-variant: normal; */
+  /* font-weight: 700;
+  line-height: 30px; */
+/* } */ 
+
+.face1up{
+  display: flex;
+  flex-direction: row;
+  flex: 50%;
+  height: 70px;
+  font-family: 'Jost', sans-serif;
+}
+.face1down{
+  display: flex;
+  flex-direction: row;
+  flex: 50%;
+  height: 70px;
+}
+
+.card-grid{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: var(--spacing-l);
+  grid-row-gap: var(--spacing-l);
+  max-width: var(--width-container);
+  width: 100%;
+}
+
+
+.cardA {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  float: left;
+  width: 97%;
+  height: 70px;
+  text-align: center;
+  /* filter: brightness(0.75) saturate(1.2) contrast(0.85); */
+  color: whitesmoke;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 60px;
+  /* font-weight: bold; */
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
+    0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
+    0 16px 16px rgba(0, 0, 0, 0.1);
+    transform-origin: center;
+    transform: scale(1) translateZ(0);
+    transition: 
+      filter 200ms linear,
+      transform 200ms linear;
+}

@@ -1,0 +1,20 @@
+.carousel-indicators li {
+  display: none;
+}
+.carousel-indicators {
+  display: none;
+  height: 1%;
+}
+.carousel-control-prev {
+  height: 50%;
+}
+.carousel-control-next {
+  height: 50%;
+}
+.carousel-inner {
+  height: 90%;
+}
+.carousel-caption {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
